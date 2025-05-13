@@ -8,7 +8,7 @@ input.addEventListener("input", function () {
     if (allowedPasswords.includes(input.value)) {
       loadingOverlay.style.display = "flex"; // Tampilkan loading
       setTimeout(() => {
-        window.location.href = "https://danillkifly.github.io/";
+        window.location.href = "https://danillkifly.vercel.app/";
       }, 2000); // Tunda 2 detik sebelum pindah halaman
     } else {
       alert("Password salah!");
